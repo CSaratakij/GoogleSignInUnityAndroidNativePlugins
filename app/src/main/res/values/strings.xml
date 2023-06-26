@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">GoogleSignInUnityAndroidNativePlugins</string>
+    <string name="client_id"></string>
+</resources>
