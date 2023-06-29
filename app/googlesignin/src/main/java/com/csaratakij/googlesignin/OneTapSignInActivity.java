@@ -69,7 +69,7 @@ public class OneTapSignInActivity extends AppCompatActivity
 
         if (bundle != null) {
             clientId = bundle.getString("clientId");
-            Log.w(TAG, "Got client id : " + clientId);
+            //Log.w(TAG, "Got client id : " + clientId);
         }
 
         if (clientId.isEmpty()) {

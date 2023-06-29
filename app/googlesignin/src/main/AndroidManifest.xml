@@ -3,11 +3,13 @@
     <application>
         <activity
             android:name="com.csaratakij.googlesignin.GoogleSignInActivity"
-            android:theme="@style/Theme.AppCompat.NoActionBar">
+            android:theme="@style/Theme.AppCompat.NoActionBar"
+            android:screenOrientation="behind">
         </activity>
         <activity
             android:name="com.csaratakij.googlesignin.OneTapSignInActivity"
-            android:theme="@style/Theme.AppCompat.NoActionBar">
+            android:theme="@style/Theme.AppCompat.NoActionBar"
+            android:screenOrientation="behind">
         </activity>
     </application>
 </manifest>
