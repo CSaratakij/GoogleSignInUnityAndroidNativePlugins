@@ -79,6 +79,7 @@ public class GoogleSignInActivity extends AppCompatActivity
             GoogleSignInOptions options = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
                     .requestIdToken(clientId)
                     .requestProfile()
+                    .requestEmail()
                     .build();
 
             client = GoogleSignIn.getClient(this, options);
